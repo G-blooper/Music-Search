@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+body{
+	background-color:  #ffa658;
+	color:#09195c;
+	display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    text-align: center;
+}
+
+h1{
+  background: linear-gradient(transparent 60%, yellow 30%);
+      display: inline-block;
+  
+
+}
+
+.musiclist button{
+    width:300px;
+    display: block; /* 各a要素をブロックレベル要素に変更 */
+    border: none;
+    padding: 10px; /* 適切なパディングを追加 */
+    text-decoration: none; /* 下線を削除 */
+    text-align: center;
+    color: #09195c; /* テキストの色を黒に設定 */
+    background-color: #ffa658;
+    font-size: 20px;
+
+}
+
+.musiclist button:hover {
+  background-color: #f0f0f0; /* ホバー時に背景色を変更 */
+}
+
+.musiclist {
+    list-style-type: none; /* デフォルトのリストスタイルを削除 */
+    padding: 0; /* パディングを削除 */
+    margin: 0; /* マージンを削除 */
+}
+
+.randomButton button{
+    width:300px;
+    display: block; /* 各a要素をブロックレベル要素に変更 */
+    border: none;
+    padding: 10px; /* 適切なパディングを追加 */
+    text-decoration: none; /* 下線を削除 */
+    text-align: center;
+    color: #09195c; /* テキストの色を黒に設定 */
+    background-color: #ffa658;
+    font-size: 20px;
+}
+
+.randomButton {
+	list-style-type: none; /* デフォルトのリストスタイルを削除 */
+    padding: 0; /* パディングを削除 */
+    margin: 0; /* マージンを削除 */
+}
+
+.randomButton button:hover {
+  	background-color: #ffd700;
+}
